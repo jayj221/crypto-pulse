@@ -1,4 +1,4 @@
-name: CryptoPulse — Multi-Commit Daily
+name: CryptoPulse Daily
 
 on:
   schedule:
@@ -13,49 +13,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Cache pip
-        uses: actions/cache@v4
+
+      - uses: actions/cache@v4
         with:
           path: ~/.cache/pip
-          key: pip-crypto-v2-${{ hashFiles('requirements.txt') }}
+          key: pip-crypto-${{ hashFiles('requirements.txt') }}
+
       - run: pip install -r requirements.txt
 
-      - name: Generate all data
-        run: |
-          python report.py
-          python - <<'EOF'
-          import requests, json, datetime, os
-          TODAY = str(datetime.date.today())
-          os.makedirs('data', exist_ok=True)
-          BASE = 'https://api.coingecko.com/api/v3'
-          # Market dominance
-          try:
-              r=requests.get(f'{BASE}/global',timeout=15).json().get('data',{})
-              dom=r.get('market_cap_percentage',{})
-              data={'date':TODAY,'btc_dominance':round(dom.get('btc',0),2),'eth_dominance':round(dom.get('eth',0),2),'total_mcap':r.get('total_market_cap',{}).get('usd',0),'total_volume':r.get('total_volume',{}).get('usd',0)}
-          except: data={'date':TODAY,'note':'unavailable'}
-          with open('data/market_dominance.json','w') as f: json.dump(data,f,indent=2)
-          # Top movers
-          try:
-              url=f'{BASE}/coins/markets?vs_currency=usd&order=price_change_percentage_24h_desc&per_page=10&page=1'
-              gainers=[{'symbol':c['symbol'].upper(),'name':c['name'],'price':c['current_price'],'chg_24h':round(c.get('price_change_percentage_24h',0),2)} for c in requests.get(url,timeout=15).json()[:5]]
-              url2=f'{BASE}/coins/markets?vs_currency=usd&order=price_change_percentage_24h_asc&per_page=10&page=1'
-              losers=[{'symbol':c['symbol'].upper(),'name':c['name'],'price':c['current_price'],'chg_24h':round(c.get('price_change_percentage_24h',0),2)} for c in requests.get(url2,timeout=15).json()[:5]]
-              movers={'date':TODAY,'top_gainers':gainers,'top_losers':losers}
-          except: movers={'date':TODAY,'note':'unavailable'}
-          with open('data/movers.json','w') as f: json.dump(movers,f,indent=2)
-          # Fear & greed index
-          try:
-              fg=requests.get('https://api.alternative.me/fng/?limit=7',timeout=10).json()
-              fgd=[{'date':datetime.datetime.fromtimestamp(int(d['timestamp'])).strftime('%Y-%m-%d'),'value':int(d['value']),'label':d['value_classification']} for d in fg.get('data',[])]
-              with open('data/fear_greed.json','w') as f: json.dump({'updated':TODAY,'history':fgd},f,indent=2)
-              print('Fear & greed:', fgd[0] if fgd else 'N/A')
-          except Exception as e: print(f'F&G error: {e}')
-          print('All crypto data generated')
-          EOF
+      - run: python report.py
+      - run: python scripts/dominance.py
+      - run: python scripts/movers.py
+      - run: python scripts/fear_greed.py
 
       - name: Configure git
         run: |
@@ -65,9 +38,9 @@ jobs:
       - name: Commit crypto report
         run: |
           git add reports/$(date +%Y-%m-%d).md
-          git diff --staged --quiet || git commit -m "📈 Crypto report $(date -u '+%Y-%m-%d') — BTC ETH SOL market update"
+          git diff --staged --quiet || git commit -m "📈 Crypto report $(date -u '+%Y-%m-%d') — BTC ETH SOL"
 
-      - name: Commit market dominance
+      - name: Commit dominance
         run: |
           git add data/market_dominance.json
           git diff --staged --quiet || git commit -m "₿ BTC dominance $(date -u '+%Y-%m-%d') — market cap tracked"
@@ -75,12 +48,11 @@ jobs:
       - name: Commit movers
         run: |
           git add data/movers.json
-          git diff --staged --quiet || git commit -m "🚀 Crypto movers $(date -u '+%Y-%m-%d') — top gainers and losers"
+          git diff --staged --quiet || git commit -m "🚀 Top movers $(date -u '+%Y-%m-%d') — gainers and losers"
 
       - name: Commit fear & greed
         run: |
-          git add data/fear_greed.json 2>/dev/null || true
-          git diff --staged --quiet || git commit -m "😨 Fear & greed $(date -u '+%Y-%m-%d') — sentiment index updated"
+          git add data/fear_greed.json
+          git diff --staged --quiet || git commit -m "😨 Fear & greed $(date -u '+%Y-%m-%d') — sentiment index"
 
-      - name: Push all commits
-        run: git push
+      - run: git push
