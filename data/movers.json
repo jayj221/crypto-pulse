@@ -1,4 +1,147 @@
 {
-  "date": "2026-04-24",
-  "note": "API unavailable"
+  "date": "2026-04-27",
+  "top_gainers": [
+    {
+      "symbol": "XCN",
+      "name": "Onyxcoin",
+      "price": 0.00619282,
+      "chg_24h": 30.69,
+      "mcap": 238639699
+    },
+    {
+      "symbol": "HASH",
+      "name": "Provenance Blockchain",
+      "price": 0.01246321,
+      "chg_24h": 20.76,
+      "mcap": 714639282
+    },
+    {
+      "symbol": "PENGU",
+      "name": "Pudgy Penguins",
+      "price": 0.01027188,
+      "chg_24h": 14.87,
+      "mcap": 642110136
+    },
+    {
+      "symbol": "UMXM",
+      "name": "Manadia",
+      "price": 1.93,
+      "chg_24h": 13.22,
+      "mcap": 407878341
+    },
+    {
+      "symbol": "LUNC",
+      "name": "Terra Luna Classic",
+      "price": 6.486e-05,
+      "chg_24h": 8.71,
+      "mcap": 355985924
+    },
+    {
+      "symbol": "SHFL",
+      "name": "Shuffle",
+      "price": 0.320038,
+      "chg_24h": 7.09,
+      "mcap": 131979212
+    },
+    {
+      "symbol": "\u5e01\u5b89\u4eba\u751f",
+      "name": "\u5e01\u5b89\u4eba\u751f (BinanceLife)",
+      "price": 0.370406,
+      "chg_24h": 5.97,
+      "mcap": 371249325
+    },
+    {
+      "symbol": "SFP",
+      "name": "SafePal",
+      "price": 0.377205,
+      "chg_24h": 5.91,
+      "mcap": 188654460
+    },
+    {
+      "symbol": "JUP",
+      "name": "Jupiter",
+      "price": 0.194062,
+      "chg_24h": 5.42,
+      "mcap": 698410700
+    },
+    {
+      "symbol": "STABLE",
+      "name": "\u200b\u200bStable",
+      "price": 0.03555754,
+      "chg_24h": 4.87,
+      "mcap": 783601377
+    }
+  ],
+  "top_losers": [
+    {
+      "symbol": "GWEI",
+      "name": "ETHGas",
+      "price": 0.094564,
+      "chg_24h": -20.81,
+      "mcap": 199019983
+    },
+    {
+      "symbol": "TRAC",
+      "name": "OriginTrail",
+      "price": 0.303264,
+      "chg_24h": -15.34,
+      "mcap": 135446098
+    },
+    {
+      "symbol": "M",
+      "name": "MemeCore",
+      "price": 3.78,
+      "chg_24h": -12.76,
+      "mcap": 4890919777
+    },
+    {
+      "symbol": "SKYAI",
+      "name": "SkyAI",
+      "price": 0.165399,
+      "chg_24h": -12.19,
+      "mcap": 165169750
+    },
+    {
+      "symbol": "LDO",
+      "name": "Lido DAO",
+      "price": 0.402304,
+      "chg_24h": -9.35,
+      "mcap": 341100034
+    },
+    {
+      "symbol": "ASTEROID",
+      "name": "Asteroid Shiba",
+      "price": 0.00029193,
+      "chg_24h": -8.55,
+      "mcap": 123749639
+    },
+    {
+      "symbol": "VVV",
+      "name": "Venice Token",
+      "price": 8.9,
+      "chg_24h": -7.6,
+      "mcap": 410434001
+    },
+    {
+      "symbol": "OHM",
+      "name": "Olympus",
+      "price": 19.21,
+      "chg_24h": -7.16,
+      "mcap": 300459484
+    },
+    {
+      "symbol": "FF",
+      "name": "Falcon Finance",
+      "price": 0.064795,
+      "chg_24h": -7.15,
+      "mcap": 151544817
+    },
+    {
+      "symbol": "H",
+      "name": "Humanity",
+      "price": 0.141787,
+      "chg_24h": -6.5,
+      "mcap": 259272108
+    }
+  ]
 }
