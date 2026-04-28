@@ -1,11 +1,16 @@
 {
-  "updated": "2026-04-27",
+  "updated": "2026-04-28",
   "latest": {
-    "date": "2026-04-27",
-    "value": 47,
-    "label": "Neutral"
+    "date": "2026-04-28",
+    "value": 33,
+    "label": "Fear"
   },
   "history": [
+    {
+      "date": "2026-04-28",
+      "value": 33,
+      "label": "Fear"
+    },
     {
       "date": "2026-04-27",
       "value": 47,
@@ -69,11 +74,6 @@
     {
       "date": "2026-04-15",
       "value": 23,
-      "label": "Extreme Fear"
-    },
-    {
-      "date": "2026-04-14",
-      "value": 21,
       "label": "Extreme Fear"
     }
   ]
