@@ -1,147 +1,147 @@
 {
-  "date": "2026-04-28",
+  "date": "2026-04-30",
   "top_gainers": [
     {
       "symbol": "SKYAI",
       "name": "SkyAI",
-      "price": 0.217729,
-      "chg_24h": 32.08,
-      "mcap": 216941435
-    },
-    {
-      "symbol": "H",
-      "name": "Humanity",
-      "price": 0.179767,
-      "chg_24h": 26.28,
-      "mcap": 330485980
-    },
-    {
-      "symbol": "APE",
-      "name": "ApeCoin",
-      "price": 0.160109,
-      "chg_24h": 13.64,
-      "mcap": 160177545
+      "price": 0.259382,
+      "chg_24h": 36.17,
+      "mcap": 259957263
     },
     {
       "symbol": "UB",
       "name": "Unibase",
-      "price": 0.055424,
-      "chg_24h": 12.93,
-      "mcap": 138575162
+      "price": 0.065249,
+      "chg_24h": 17.85,
+      "mcap": 161135898
     },
     {
-      "symbol": "BSB",
-      "name": "Block Street",
-      "price": 0.852013,
-      "chg_24h": 12.53,
-      "mcap": 183336989
-    },
-    {
-      "symbol": "TRAC",
-      "name": "OriginTrail",
-      "price": 0.330339,
-      "chg_24h": 9.7,
-      "mcap": 147752064
-    },
-    {
-      "symbol": "PI",
-      "name": "Pi Network",
-      "price": 0.194514,
-      "chg_24h": 6.36,
-      "mcap": 2007540858
-    },
-    {
-      "symbol": "AXS",
-      "name": "Axie Infinity",
-      "price": 1.53,
-      "chg_24h": 6.21,
-      "mcap": 259113045
-    },
-    {
-      "symbol": "ZK",
-      "name": "ZKsync",
-      "price": 0.01601278,
-      "chg_24h": 5.34,
-      "mcap": 155349666
-    },
-    {
-      "symbol": "DYDX",
-      "name": "dYdX",
-      "price": 0.16398,
-      "chg_24h": 5.08,
-      "mcap": 136960874
-    }
-  ],
-  "top_losers": [
-    {
-      "symbol": "M",
-      "name": "MemeCore",
-      "price": 3.35,
-      "chg_24h": -10.52,
-      "mcap": 4343312083
-    },
-    {
-      "symbol": "ZBCN",
-      "name": "Zebec Network",
-      "price": 0.00340942,
-      "chg_24h": -10.31,
-      "mcap": 333714596
-    },
-    {
-      "symbol": "SFP",
-      "name": "SafePal",
-      "price": 0.341386,
-      "chg_24h": -9.71,
-      "mcap": 170687228
-    },
-    {
-      "symbol": "DEXE",
-      "name": "DeXe",
-      "price": 13.1,
-      "chg_24h": -8.49,
-      "mcap": 613006788
-    },
-    {
-      "symbol": "CHZ",
-      "name": "Chiliz",
-      "price": 0.04546925,
-      "chg_24h": -8.38,
-      "mcap": 469801449
+      "symbol": "B",
+      "name": "BUILDon",
+      "price": 0.133435,
+      "chg_24h": 10.0,
+      "mcap": 133589227
     },
     {
       "symbol": "GWEI",
       "name": "ETHGas",
-      "price": 0.087684,
-      "chg_24h": -8.01,
-      "mcap": 184125319
+      "price": 0.092459,
+      "chg_24h": 9.3,
+      "mcap": 195656784
     },
     {
-      "symbol": "XCN",
-      "name": "Onyxcoin",
-      "price": 0.00565901,
-      "chg_24h": -7.51,
-      "mcap": 214103473
+      "symbol": "LUNC",
+      "name": "Terra Luna Classic",
+      "price": 6.683e-05,
+      "chg_24h": 7.32,
+      "mcap": 368964394
     },
     {
-      "symbol": "RIVER",
-      "name": "River",
-      "price": 6.18,
-      "chg_24h": -7.39,
-      "mcap": 121000999
+      "symbol": "PIEVERSE",
+      "name": "Pieverse",
+      "price": 0.775934,
+      "chg_24h": 6.87,
+      "mcap": 178695485
     },
     {
-      "symbol": "CHIP",
-      "name": "USD.AI",
-      "price": 0.069579,
-      "chg_24h": -6.99,
-      "mcap": 138823269
+      "symbol": "AKT",
+      "name": "Akash Network",
+      "price": 0.508354,
+      "chg_24h": 4.79,
+      "mcap": 149089399
+    },
+    {
+      "symbol": "LIT",
+      "name": "Lighter",
+      "price": 0.927723,
+      "chg_24h": 4.21,
+      "mcap": 232695442
+    },
+    {
+      "symbol": "RAY",
+      "name": "Raydium",
+      "price": 0.778682,
+      "chg_24h": 3.55,
+      "mcap": 209885647
+    },
+    {
+      "symbol": "RAIN",
+      "name": "Rain",
+      "price": 0.00774957,
+      "chg_24h": 3.3,
+      "mcap": 3707871635
+    }
+  ],
+  "top_losers": [
+    {
+      "symbol": "UMXM",
+      "name": "Manadia",
+      "price": 1.5,
+      "chg_24h": -19.97,
+      "mcap": 314633609
+    },
+    {
+      "symbol": "HASH",
+      "name": "Provenance Blockchain",
+      "price": 0.01088444,
+      "chg_24h": -15.66,
+      "mcap": 625253303
     },
     {
       "symbol": "GENIUS",
       "name": "Genius",
-      "price": 0.529711,
-      "chg_24h": -6.49,
-      "mcap": 177760901
+      "price": 0.447873,
+      "chg_24h": -14.2,
+      "mcap": 149814075
+    },
+    {
+      "symbol": "RAVE",
+      "name": "RaveDAO",
+      "price": 0.746343,
+      "chg_24h": -13.8,
+      "mcap": 185554729
+    },
+    {
+      "symbol": "WLFI",
+      "name": "World Liberty Financial",
+      "price": 0.063987,
+      "chg_24h": -13.19,
+      "mcap": 2032918314
+    },
+    {
+      "symbol": "CHIP",
+      "name": "USD.AI",
+      "price": 0.063557,
+      "chg_24h": -10.44,
+      "mcap": 127305942
+    },
+    {
+      "symbol": "STABLE",
+      "name": "\u200b\u200bStable",
+      "price": 0.0329501,
+      "chg_24h": -10.31,
+      "mcap": 732587045
+    },
+    {
+      "symbol": "MON",
+      "name": "Monad",
+      "price": 0.02641533,
+      "chg_24h": -9.29,
+      "mcap": 313218219
+    },
+    {
+      "symbol": "EDGE",
+      "name": "edgeX",
+      "price": 1.19,
+      "chg_24h": -8.97,
+      "mcap": 418050404
+    },
+    {
+      "symbol": "APE",
+      "name": "ApeCoin",
+      "price": 0.147149,
+      "chg_24h": -8.84,
+      "mcap": 147433100
     }
   ]
 }
