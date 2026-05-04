@@ -1,147 +1,147 @@
 {
-  "date": "2026-05-01",
+  "date": "2026-05-04",
   "top_gainers": [
     {
-      "symbol": "B",
-      "name": "BUILDon",
-      "price": 0.292479,
-      "chg_24h": 125.77,
-      "mcap": 294260319
+      "symbol": "SKYAI",
+      "name": "SkyAI",
+      "price": 0.712505,
+      "chg_24h": 58.78,
+      "mcap": 711638270
     },
     {
-      "symbol": "UB",
-      "name": "Unibase",
-      "price": 0.125204,
-      "chg_24h": 79.04,
-      "mcap": 315013205
+      "symbol": "ASTEROID",
+      "name": "Asteroid Shiba",
+      "price": 0.00040515,
+      "chg_24h": 36.84,
+      "mcap": 170131485
     },
     {
-      "symbol": "9BIT",
-      "name": "The9bit",
-      "price": 0.02909165,
-      "chg_24h": 26.49,
-      "mcap": 238566224
+      "symbol": "DASH",
+      "name": "Dash",
+      "price": 50.21,
+      "chg_24h": 27.71,
+      "mcap": 635641466
     },
     {
-      "symbol": "ORCA",
-      "name": "Orca",
-      "price": 2.04,
-      "chg_24h": 18.72,
-      "mcap": 124638436
+      "symbol": "RAVE",
+      "name": "RaveDAO",
+      "price": 0.78104,
+      "chg_24h": 26.3,
+      "mcap": 194742996
     },
     {
       "symbol": "PENDLE",
       "name": "Pendle",
-      "price": 1.57,
-      "chg_24h": 14.23,
-      "mcap": 264096255
-    },
-    {
-      "symbol": "APE",
-      "name": "ApeCoin",
-      "price": 0.178224,
-      "chg_24h": 12.1,
-      "mcap": 177976098
+      "price": 1.92,
+      "chg_24h": 20.51,
+      "mcap": 326688642
     },
     {
       "symbol": "CRCLON",
       "name": "Circle Internet Group (Ondo Tokenized Stock)",
-      "price": 100.45,
-      "chg_24h": 10.15,
-      "mcap": 130660583
-    },
-    {
-      "symbol": "FLUID",
-      "name": "Fluid",
-      "price": 1.68,
-      "chg_24h": 10.14,
-      "mcap": 130912656
-    },
-    {
-      "symbol": "ZEC",
-      "name": "Zcash",
-      "price": 384.63,
-      "chg_24h": 10.12,
-      "mcap": 6417812417
-    },
-    {
-      "symbol": "MON",
-      "name": "Monad",
-      "price": 0.02975124,
-      "chg_24h": 9.91,
-      "mcap": 351444701
-    }
-  ],
-  "top_losers": [
-    {
-      "symbol": "ZBCN",
-      "name": "Zebec Network",
-      "price": 0.00317638,
-      "chg_24h": -11.49,
-      "mcap": 312408824
-    },
-    {
-      "symbol": "WLFI",
-      "name": "World Liberty Financial",
-      "price": 0.055445,
-      "chg_24h": -8.62,
-      "mcap": 1759724585
-    },
-    {
-      "symbol": "HASH",
-      "name": "Provenance Blockchain",
-      "price": 0.01055873,
-      "chg_24h": -7.88,
-      "mcap": 554252658
-    },
-    {
-      "symbol": "ULTIMA",
-      "name": "Ultima",
-      "price": 2795.36,
-      "chg_24h": -6.92,
-      "mcap": 143965627
-    },
-    {
-      "symbol": "ZANO",
-      "name": "Zano",
-      "price": 8.97,
-      "chg_24h": -5.92,
-      "mcap": 136910551
-    },
-    {
-      "symbol": "M",
-      "name": "MemeCore",
-      "price": 3.02,
-      "chg_24h": -5.66,
-      "mcap": 3914295696
-    },
-    {
-      "symbol": "DEXE",
-      "name": "DeXe",
-      "price": 10.72,
-      "chg_24h": -5.54,
-      "mcap": 500178865
-    },
-    {
-      "symbol": "BTSE",
-      "name": "BTSE Token",
-      "price": 1.075,
-      "chg_24h": -5.5,
-      "mcap": 174183790
+      "price": 121.6,
+      "chg_24h": 19.66,
+      "mcap": 161901497
     },
     {
       "symbol": "LUNC",
       "name": "Terra Luna Classic",
-      "price": 7.034e-05,
-      "chg_24h": -4.08,
-      "mcap": 389514393
+      "price": 0.00010291,
+      "chg_24h": 19.41,
+      "mcap": 565792134
     },
     {
-      "symbol": "ZRO",
-      "name": "LayerZero",
-      "price": 1.38,
-      "chg_24h": -4.06,
-      "mcap": 347349474
+      "symbol": "TON",
+      "name": "Toncoin",
+      "price": 1.55,
+      "chg_24h": 14.25,
+      "mcap": 4175507665
+    },
+    {
+      "symbol": "ONDO",
+      "name": "Ondo",
+      "price": 0.321482,
+      "chg_24h": 11.48,
+      "mcap": 1565148107
+    },
+    {
+      "symbol": "WLFI",
+      "name": "World Liberty Financial",
+      "price": 0.06368,
+      "chg_24h": 7.68,
+      "mcap": 2020340488
+    }
+  ],
+  "top_losers": [
+    {
+      "symbol": "GENIUS",
+      "name": "Genius",
+      "price": 0.540198,
+      "chg_24h": -13.37,
+      "mcap": 180951074
+    },
+    {
+      "symbol": "TAG",
+      "name": "TAGGER",
+      "price": 0.00131395,
+      "chg_24h": -12.26,
+      "mcap": 143136967
+    },
+    {
+      "symbol": "B",
+      "name": "BUILDon",
+      "price": 0.374105,
+      "chg_24h": -9.61,
+      "mcap": 372361568
+    },
+    {
+      "symbol": "M",
+      "name": "MemeCore",
+      "price": 2.73,
+      "chg_24h": -9.12,
+      "mcap": 3555824222
+    },
+    {
+      "symbol": "BAT",
+      "name": "Basic Attention",
+      "price": 0.103303,
+      "chg_24h": -5.66,
+      "mcap": 154513387
+    },
+    {
+      "symbol": "HASH",
+      "name": "Provenance Blockchain",
+      "price": 0.01050143,
+      "chg_24h": -4.89,
+      "mcap": 552083844
+    },
+    {
+      "symbol": "SOSO",
+      "name": "SoSoValue",
+      "price": 0.40934,
+      "chg_24h": -4.55,
+      "mcap": 127721504
+    },
+    {
+      "symbol": "RAY",
+      "name": "Raydium",
+      "price": 0.785223,
+      "chg_24h": -3.77,
+      "mcap": 211127373
+    },
+    {
+      "symbol": "AR",
+      "name": "Arweave",
+      "price": 2.1,
+      "chg_24h": -3.49,
+      "mcap": 138033180
+    },
+    {
+      "symbol": "HNT",
+      "name": "Helium",
+      "price": 0.911468,
+      "chg_24h": -3.02,
+      "mcap": 167411162
     }
   ]
 }
